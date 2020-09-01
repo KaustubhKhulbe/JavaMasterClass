@@ -66,6 +66,23 @@ public class Operators {
             System.out.println("Either or both conditions are true");
         }
 
+        int newValue = 50;
+        if(newValue == 50){
+            System.out.println("This isn't an error");
+        }
+
+
+        boolean isCar = false;
+        if(isCar){
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+
+        if (wasCar){
+            System.out.println("wasCar is true");
+        }
 
     }
 }
